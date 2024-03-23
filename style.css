@@ -1,0 +1,93 @@
+body{
+ margin: 0;
+ padding: 0;
+ background-color: none;
+}
+.left{
+    width: 50%;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(20, 20, 20);
+}
+.right{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+}
+.main{
+    height: 100vh;
+    display: flex;
+}
+.main-left{
+    padding-left: 10px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    font-size: 25px;
+    color:rgb(20, 20, 20) ;
+}
+.mainpic{
+    height: 90%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 10px;
+}
+button{
+    border: none;
+    color: white;
+}
+.appb{
+    
+    background-color: rgb(149,151,250);
+}
+.db{
+    background-color: rgb(20, 20, 20);
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(20, 20, 20);
+
+}
+.simages{
+    width: 200px;
+}
+.h2tag{
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.hert{
+    height: 450px;
+    width: 370px;
+    padding-left: 8px;
+    box-shadow: 8px 8px 18px gray;
+    border-radius: 5px;
+    margin-left: 35px;
+    
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
